@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #45062E;
+    text-align: center;
+}
+
+main h1{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vmin;
+    margin-top: 5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0,0,0.5);
+    font-size: 8vmin;
+    color: #161616;
+    background-color: #EBD2BE;
+}
+.boxes{
+    display: flex;
+    gap: 3.5vmin;
+    justify-content: center;
+
+}
+
+.reset-btn{
+    margin-top: 5vmin;
+    padding: 1rem;
+    background-color: #FFE8D4;
+    box-shadow: 0 0 1rem rgba(0, 0,0,0.5);
+    border: none;
+    border-radius: 1rem;
+}
+
+.new-game{
+    margin-top: 5vmin;
+    padding: 1rem;
+    background-color: #FFE8D4;
+    box-shadow: 0 0 1rem rgba(0, 0,0,0.5);
+    border: none;
+    border-radius: 1rem;
+
+
+}
+
+#msg{
+    color: #FFE8D4;
+    font-size: 7vmin;
+}
+.msg-container{
+    height: 10vmin;
+}
+
+.hide{
+    display: none;
+}
+
+.box .O{
+    color: red;
+}
+.box .X{
+    color: blue;
+}
+
+.draw-message{
+    color: red;
+    font-weight: bold;
+}
+.winner{
+    color: #45062E;
+}
